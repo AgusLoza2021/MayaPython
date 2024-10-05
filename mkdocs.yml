@@ -1,4 +1,4 @@
-site_name: {{SITE_NAME}}
+site_name: MayaPython
 theme:
   name: material
   language: en
