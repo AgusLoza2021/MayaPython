@@ -21,7 +21,7 @@
 [![Maya][maya-cmds-shield]][maya-cmds-url]
 
 <h3 align="center">MayaPython</h3>
-  Scripts in python for autodesk maya.
+  This repository includes python scripts for rigging
   <br />
   <p align="center">
     <a href="https://AgusLoza2021.github.io/MayaPython"><strong>Explore the docs »</strong></a>
@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Please replace this text with a description of the project.
+This repository contains a set of scripts designed to optimize the rigging process, streamlining the creation and export of rigs ready for integration into game engines like Unity//UE. The tool automates key tasks to reduce time and common errors during the rig preparation and export stages.
 
 <div align="center">
 
@@ -77,7 +77,8 @@ Please replace this text with a description of the project.
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Please replace this text with a guide to getting started with this project.
+Clone the repository:
+
 
 Development and contribution guidelines can be found on the [contributing](CONTRIBUTING.md) page.
 
@@ -87,10 +88,17 @@ Development and contribution guidelines can be found on the [contributing](CONTR
 
 
 
-### Prerequisites
-Please replace this text with a list of pre-requisites for the project.
 
-* Maya
+**Prerequisites**
+
+* *_Before getting started, make sure you have the following installed:_*
+
+* Python 3.x: Required for running the scripts. You can download it from Python’s official website.
+
+* Autodesk Maya: The scripts are designed to work with Maya and utilize its environment. Make sure you have it installed and properly configured. You can get it from Autodesk’s website.
+
+* Advanced Skeleton: This tool works with rigs built in Advanced Skeleton. Ensure you have it installed within Maya. Download it from Advanced Skeleton.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,9 +110,14 @@ Please replace this text with a list of pre-requisites for the project.
     ```sh
     git clone https://github.com/AgusLoza2021/MayaPython.git  
     ```
-2. Installation instructions go here.
+2. Set up Maya's Python environment:
 
+-   Open Maya.
+  Ensure that Maya’s Python interpreter is set to use Python 3.x (Maya 2022+ supports Python 3).
 
+3. Open Maya’s Script Editor and create new Python Tab.
+
+4. Execute the "CH_PBSH.0001" script.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -137,7 +150,7 @@ Development and contribution guidelines can be found on the [CONTRIBUTING.md](CO
 <!-- LICENSE -->
 ## License
 
-Distributed under the `insert_license_name` license. See `LICENSE` file for more information.
+Distributed under the `Lozano Agustin Character TD` license. See `LICENSE` file for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +167,9 @@ Please reach out via the [request a feature](https://github.com/AgusLoza2021/May
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+* Huge thanks for the project template to TechArtOps and their well-deserved credits
 * Project template by [TechArtOps](https://www.techartops.com).
-* foo
-* bar
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
